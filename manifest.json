@@ -1,8 +1,8 @@
 {
   "required_api_version": "^2.0.0",
   "name": "Joplin notes",
-  "description": "Easily add notes to joplin using ulauncher",
-  "developer_name": "Denis Gerber",
+  "description": "Easily add notes to joplin using ulauncher. Originally created by Denis Gerber.",
+  "developer_name": "Thorsten Ott",
   "icon": "images/icon.png",
   "options": {
     "query_debounce": 0.1
@@ -19,6 +19,30 @@
       "type": "keyword",
       "name": "Joplin ToDo",
       "default_value": "todo"
+    },
+    {
+      "id": "server",
+      "type": "input",
+      "name": "Joplin Server Address",
+      "default_value": "http://localhost:41184"
+    },
+    {
+      "id": "token",
+      "type": "input",
+      "name": "Joplin API Token",
+      "default_value": ""
+    },
+    {
+      "id": "default_note_notebook",
+      "type": "input",
+      "name": "Default Notebook ID for Notes (optional)",
+      "default_value": ""
+    },
+    {
+      "id": "default_todo_notebook",
+      "type": "input",
+      "name": "Default Notebook ID for Todos (optional)",
+      "default_value": ""
     },
     {
       "id": "limit",
